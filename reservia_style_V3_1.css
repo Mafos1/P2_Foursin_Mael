@@ -358,7 +358,7 @@ h2{
     max-height: 41rem;
 }
 .popular_types{
-    box-shadow: 4px 4px 4px 4px rgb(236, 236, 236);
+    box-shadow: 0.8px 0.8px 0.8px 0.8px rgb(236, 236, 236);
     border-radius: 30px;
     padding: 3px;
     display: flex;
@@ -589,9 +589,10 @@ h2{
     padding: initial;
    }
    .popular_title{
-    margin-left: -1em;
+    margin-left: -0.5em;
+    margin-top: 1.8em;
    }
-    
+   
    
    /* ACTIVITY */
 
@@ -664,20 +665,54 @@ h2{
     }
 }
 
-@media all and (min-width: 1400px) and (max-width: 750px){
 
-.popular{
+@media all and (min-width: 932px) and (max-width: 1032px){
+
+  #accomodation_all{
+      flex-direction: column-reverse;
+  }
+  .accomodation{
+     ;
+  }
+  .popular{
     display: flex;
     flex-direction: initial;
     justify-content: space-around;
-    width: 50%;
-    margin-left: -20px;
-    border-radius: 0;
+    width: 80%;
+    margin-left: -22px;
+    border-radius: 10px, 10px, 10px, 10px;
     flex-wrap: wrap;
     margin: initial;
     padding: initial;
+    margin-bottom: 50px;
+   }
+   .popular_title{
+    margin-top: 80px;
    }
 }
 
-@media screen and (max-width: 900px) {
+@media all and (min-width: 601px) and (max-width: 932px){
+    #accomodation_all{
+        flex-direction: column-reverse;
+    }
+    .accomodation{
+       ;
+    }
+    .popular{
+      display: flex;
+      flex-direction: initial;
+      justify-content: space-around;
+      width: 80%;
+      margin-left: -22px;
+      border-radius: 10px, 10px, 10px, 10px;
+      flex-wrap: wrap;
+      margin: initial;
+      padding: initial;
+      margin-bottom: 50px;
+     }
+     .popular_title{
+      margin-top: 20px;
+        
+     }
+  }
   
