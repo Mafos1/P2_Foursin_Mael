@@ -48,7 +48,7 @@ h2{
 .header_img{
     width: auto;
     height: 3rem; 
-    margin-left: 18px;
+    margin-left: 15px;
 }
 
 
@@ -85,9 +85,6 @@ h2{
 /* Title accomodations */
 
 
-.article1_search_title{
-
-}
 .article1_title_h1{
     font-weight: bold;
     font-size: 1.65em;
@@ -157,11 +154,13 @@ h2{
     justify-content: flex-start;
     margin-top: 15px;
     margin-bottom: 15px; 
-    
 }
 .search_infos_text2{
     width: 80%;
     margin-left: 7px;
+}
+.search_button_icon_2{
+    opacity: 0;
 }
 
 
@@ -501,7 +500,7 @@ h2{
     position: absolute;
     top: 0;
     font-weight: bold;
-    line-height: 85px;
+    line-height: 45px;
     padding-left: 260px;
     }
 
@@ -510,6 +509,7 @@ h2{
     .search_bar {
     width: 76%;
     font-weight: bold;
+    width: 15rem;
     }
     .article1_search{
     margin-top: 2rem;   
@@ -528,7 +528,7 @@ h2{
     padding: 3px 3px 3px 3px;
     }
     .search_block{
-        display: flex;
+    display: flex;
     }
 
 
@@ -537,6 +537,7 @@ h2{
     .filters_title{
     display: block;
     width: 100%;
+    margin-left: 0.5rem;
     }
     .filter_all_types{
     margin-top: 10px;
@@ -565,10 +566,13 @@ h2{
     width: 95%;
     }
     .heber_mars{
-    margin-left: -30px;
+    margin-left: -1.5rem;
     }
     .accomodation_ref{
     height: 200px;
+    }
+    .show_more{
+        margin-left: 1.4rem;
     }
     
     /* POPULAR */
@@ -584,19 +588,23 @@ h2{
     margin: initial;
     padding: initial;
    }
-   .popular_types{
-    
-   }
    .popular_title{
-    margin-left: 1em;
+    margin-left: -1em;
    }
     
    
    /* ACTIVITY */
 
    #activites-section{
-       margin-left: 0.5em;
-       margin-bottom: 1.1em;
+    margin-left: 0.9em;
+    margin-bottom: 1.1em;
+   }
+   .activite_desc{
+    margin-right: 2rem;
+    box-shadow: 0.2px 0.2px 0.2px 0.2px rgb(236, 236, 236);
+   }
+   .activite_name{
+    margin-left: 2rem;
    }
 
     .activite_ref{
@@ -608,27 +616,34 @@ h2{
    }
    .Vieux_port_img{
     height: 9em;
-    width: 22em;
+    width: 20em;
+    margin-left: 2rem;
    }
    .Fort_de_pomegues_img{
     height: 9em;
-    width: 22em;
+    width: 20em;
+    margin-left: 2rem;
    }
    .Iles_du_frioul_img{
     height: 9em;
-    width: 22em;
+    width: 20em;
+    margin-left: 2rem;
+    
    }
    .Parc_nat_calanques_img{
     height: 9em;
-    width: 22em;
+    width: 20em;
+    margin-left: 2rem;
    }
    .Notre_dame_img{
     height: 9em;
-    width: 22em;
+    width: 20em;
+    margin-left: 2rem;
    }
    .Parc_longchamp_img{
     height: 9em;
-    width: 22em;
+    width: 20em;
+    margin-left: 2rem;
    }
 
     
@@ -641,6 +656,11 @@ h2{
         padding: 5rem;
         margin: initial;
         padding: initial;
+        margin-left: -1rem;
+    }
+
+.search_button_icon_2{
+    opacity: 1;
     }
 }
 
@@ -658,3 +678,6 @@ h2{
     padding: initial;
    }
 }
+
+@media screen and (max-width: 900px) {
+  
