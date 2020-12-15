@@ -588,9 +588,9 @@ h2{
     flex-wrap: wrap;
     margin: initial;
     padding: initial;
+    padding-bottom: 40px;
    }
    .popular_title{
-    margin-left: -0.5em;
     margin-top: 1.8em;
    }
    
@@ -686,6 +686,7 @@ h2{
     margin: initial;
     padding: initial;
     margin-bottom: 50px;
+    padding-bottom: 50px;
    }
    .popular_title{
     margin-top: 80px;
@@ -709,6 +710,7 @@ h2{
       margin: initial;
       padding: initial;
       margin-bottom: 50px;
+      padding-bottom: 50px;
      }
      .popular_title{
       margin-top: 20px;
