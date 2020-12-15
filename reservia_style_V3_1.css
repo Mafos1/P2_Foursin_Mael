@@ -501,7 +501,7 @@ h2{
     top: 0;
     font-weight: bold;
     line-height: 45px;
-    padding-left: 260px;
+    padding-left: 240px;
     }
 
     /* SEARCH */
@@ -512,7 +512,8 @@ h2{
     width: 15rem;
     }
     .article1_search{
-    margin-top: 2rem;   
+    margin-top: 2rem;  
+    margin-left: -0.7rem; 
     }
     .article1_search{
     display: flex;
@@ -666,6 +667,7 @@ h2{
 }
 
 
+
 @media all and (min-width: 932px) and (max-width: 1032px){
 
   #accomodation_all{
@@ -680,7 +682,6 @@ h2{
     justify-content: space-around;
     width: 80%;
     margin-left: -22px;
-    border-radius: 10px, 10px, 10px, 10px;
     flex-wrap: wrap;
     margin: initial;
     padding: initial;
@@ -704,7 +705,6 @@ h2{
       justify-content: space-around;
       width: 80%;
       margin-left: -22px;
-      border-radius: 10px, 10px, 10px, 10px;
       flex-wrap: wrap;
       margin: initial;
       padding: initial;
