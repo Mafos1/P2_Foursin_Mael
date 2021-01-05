@@ -420,7 +420,7 @@ h2{
     background-color: #f0f0f1;
     text-decoration: none;
     color: black;
-    margin: 5rem -5rem 0 -5rem;
+    margin: 5rem -3rem 0 -5rem;
     padding: 5rem;
     padding-right: 29rem;
 }
@@ -439,14 +439,16 @@ h2{
 }
 .list_1{
     font-family: "Raleway", "Sans serif"; 
+    margin-left: -40px;
     
 }
 .list_2{
     font-family: "Raleway", "Sans serif"; 
-    
+    margin-left: -40px;
 }
 .list_3{
     font-family: "Raleway", "Sans serif"; 
+    margin-left: -40px;
     
 }
 
@@ -531,6 +533,9 @@ h2{
     .search_block{
     display: flex;
     }
+    .search_button_icon_2{
+        opacity: 1;
+        }
 
 
     /* FILTERS */
@@ -654,15 +659,11 @@ h2{
     .footer_page{
         display: flex;
         flex-direction: column;
-        margin: 5rem -5rem 0 -5rem;
+        margin: 5rem -3rem 0 -5rem;
         padding: 5rem;
         margin: initial;
         padding: initial;
         margin-left: -1rem;
-    }
-
-.search_button_icon_2{
-    opacity: 1;
     }
 }
 
@@ -673,9 +674,7 @@ h2{
   #accomodation_all{
       flex-direction: column-reverse;
   }
-  .accomodation{
-     ;
-  }
+  
   .popular{
     display: flex;
     flex-direction: initial;
@@ -697,9 +696,7 @@ h2{
     #accomodation_all{
         flex-direction: column-reverse;
     }
-    .accomodation{
-       ;
-    }
+    
     .popular{
       display: flex;
       flex-direction: initial;
