@@ -665,7 +665,18 @@ h2{
         padding: initial;
         margin-left: -1rem;
     }
+
+.list_1{
+    margin-left: 1px;
+    }
+.list_2{
+    margin-left: 1px;
+    }
+.list_3{
+    margin-left: 1px;
+    }
 }
+
 
 
 
